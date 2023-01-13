@@ -8,7 +8,7 @@ if number > 0:
     elif last_digit < 6 and last_digit != 0:
         print(
             f"Last digit of {number} is"
-            f"{last_digit} and is less than" 
+            f"{last_digit} and is less than"
             f"6 and not 0"
         )
     else:
