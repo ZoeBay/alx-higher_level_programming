@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-for num in range(0, 10):
-    for nm in range(0, 10):
-        if nm < 9:
-            print("{}""{}".format(num, nm), end=', ')
-        if nm == 9:
-            print("{}""{}".format(num, nm), end=' ')
-            break
+for num in range(0, 100):
+    if num < 99:
+        print("{:02}".format(num), end=', ')
+    if num == 99:
+        print("{}".format(num), end='\n')
+        break
